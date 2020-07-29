@@ -1,10 +1,16 @@
 import React from 'react';
+import { Typography } from '@material-ui/core';
 
 const Header = () => {
   return (
-    <div>
-      <header>TFL Bike Points</header>
-    </div>
+    <header>
+      <Typography variant='h3'>
+        TFL Bike Points
+        </Typography>
+      <Typography variant='subtitle1'>
+        A database of TFL Bike Points around London with status information.
+        </Typography>
+    </header>
   );
 };
 

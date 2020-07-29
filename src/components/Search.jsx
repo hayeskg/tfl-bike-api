@@ -1,9 +1,16 @@
 import React from 'react';
+import { Typography, TextField, Button } from '@material-ui/core';
 
 const Search = () => {
   return (
-    <div>
-      Search
+    <div className="search">
+      <Typography variant="h5">
+        Find a bike near:
+      </Typography>
+      <TextField label="Search" variant="outlined" />
+      <Button variant='contained'>
+        Go
+      </Button>
     </div>
   );
 };
