@@ -5,10 +5,10 @@ const Header = () => {
   return (
     <header>
       <Typography variant='h3'>
-        TFL Bike Points
+        Bike Safe 🚲🔒
         </Typography>
       <Typography variant='subtitle1'>
-        A database of TFL Bike Points around London with status information.
+        A global database of cycle related incidents to be searched by location.
         </Typography>
     </header>
   );

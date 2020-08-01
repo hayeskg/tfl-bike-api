@@ -19,10 +19,11 @@ header{
   justify-content: center;
   font-size: 15px;
   color: white;
+  padding: 2vh;
 }
 
 .search{
-  background-color: #282c34;
+  background-color: #282c3492;
   min-height: 15vh;
   display: flex;
   flex-direction: column;
@@ -30,4 +31,5 @@ header{
   justify-content: center;
   font-size: 15px;
   color: white;
+  padding: 2vh;
 }
