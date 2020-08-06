@@ -29,7 +29,7 @@ const Search = ({ location, setLocation, setIncidents }) => {
   return (
     <div className="search">
       <Typography variant="h5">
-        Show me incidents near:
+        Incidents near me:
       </Typography>
       <br />
       <TextField label="Where?" variant="outlined" onChange={handleInputChange} />

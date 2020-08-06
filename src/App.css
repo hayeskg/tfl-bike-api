@@ -33,3 +33,40 @@ header{
   color: white;
   padding: 2vh;
 }
+
+.ItemList{
+  background-color: #282c343c;
+  height: auto;
+  align-items: normal;
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  font-size: 15px;
+  padding: 2vh;
+}
+
+.ItemCard{
+  background-color: white;
+  max-height: 50vh;
+  width: 30vh;
+  color: black;
+  padding: 2vh;
+  margin: 0.5vh;
+}
+
+footer{
+  background-color: #282c34;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  
+  padding: 2vh;
+}
+
+footer a:link {
+  text-decoration: none ;
+  color: white;
+}

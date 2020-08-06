@@ -1,10 +1,9 @@
 import React from 'react';
 import ItemCard from './ItemCard';
 
-const ItemList = ({ incidents, location, }) => {
+const ItemList = ({ incidents, location }) => {
   return (
-    <div>
-      Your results for: {location}
+    <div className="ItemList">
       {incidents.map(incident => {
         return (
           <ItemCard incident={incident} key={incident.id} />
