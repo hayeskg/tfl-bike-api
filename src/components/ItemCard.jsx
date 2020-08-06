@@ -8,7 +8,7 @@ const ItemCard = ({ incident }) => {
       <CardContent>
         <Typography variant='h6'>{title}</Typography>
         -
-        <Typography variant='subtitle2'>{address}</Typography>
+        <Typography variant='h6'>{address}</Typography>
         -
         <Typography variant='subtitle2'>{description}</Typography>
       </CardContent>
