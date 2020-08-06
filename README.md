@@ -2,11 +2,11 @@
 
 A front-end React project making use of the [bikewise.org](https://bikewise.org/) bike related crime database.
 
-The site is live on this link: 
+The site is live on this link: https://bikesafe.netlify.app/ 
 
 It is also available for download to run locally - for instructions, see below.
 
-## Run the project locally
+## Run locally
 
 Clone the project and download to a folder on your local development environment running [NodeJS](https://nodejs.org/en/) - you can download v14.4.0 by following the link.
 
